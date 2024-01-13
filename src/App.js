@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <RandomQuote/>
-      <div>hello world</div>
+      
     </div>
   );
 }

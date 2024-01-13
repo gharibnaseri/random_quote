@@ -13,9 +13,8 @@ const RandomQuote = () => {
         .then((quote)=> {
             setAuthor(quote.author);
             setQuote(quote.content);
-            
-    })
-    .catch(err => console.log())
+     })
+    
     }
     ,[])
 
@@ -35,7 +34,7 @@ const RandomQuote = () => {
         <small>-{author}-</small>
       </div>
       <br/>
-      <button className='btn' onClick={generateNewTweet}>Generate New Quote</button>
+      <button className='btn' onClick={generateNewTweet}> Generate New Quote </button>
     </div>
   )
 }
