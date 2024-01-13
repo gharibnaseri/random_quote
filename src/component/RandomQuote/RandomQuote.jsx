@@ -1,8 +1,8 @@
 import React , {useEffect, useState} from 'react'
 import "./RandomQuote.css"
 const RandomQuote = () => {
-    const [quote, setQuote]=useState('Hello')
-    const [author, setAuthor]=useState('Author')
+    const [quote, setQuote]=useState('')
+    const [author, setAuthor]=useState('')
 
     // http://api.quotable.io/random
 
@@ -13,7 +13,9 @@ const RandomQuote = () => {
         .then((quote)=> {
             setAuthor(quote.author);
             setQuote(quote.content);
+            
     })
+    .catch(err => console.log())
     }
     ,[])
 
