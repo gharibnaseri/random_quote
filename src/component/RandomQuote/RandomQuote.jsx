@@ -13,7 +13,7 @@ const [author, setAuthor] = useState('')
     , [])
 
   let generateNewTweet = () => {
-    fetch("http://api.quotable.io/random")
+    fetch("https://api.quotable.io/random")
       .then(res => res.json())
       .then((quote) => {
         setAuthor(quote.author);

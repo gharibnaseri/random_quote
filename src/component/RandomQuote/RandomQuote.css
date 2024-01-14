@@ -23,7 +23,7 @@
     flex-direction: column;
    }
    .Quote h2{
-    font-size:min(3rem ,5rem);
+    font-size:min(3rem, 7vmin);
 
     font-family: 'Lobster', sans-serif;
     
