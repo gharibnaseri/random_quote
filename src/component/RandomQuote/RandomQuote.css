@@ -3,7 +3,7 @@
 .App{
     display: flex;
     justify-content: center;
-    min-height: 100dvh;
+    /* min-height: 100dvh; */
     align-items: center;
     flex-direction: column;
     /* background-color: #77D5E7; */
@@ -12,8 +12,9 @@
     /* background: url(/Users/user/Desktop/code/react/random_quote/src/component/Assets/background.jpg); */
     background-color: #72b8cf;
     background-size: cover;
-    width: 450px;
-    height: 320px;
+    width: 60svh;
+    height: 50svh;
+    /* max-width: calc(60dvh - 200px); */
     border-radius: 10px;
     padding: 50px;
     display: flex;
@@ -22,24 +23,25 @@
     flex-direction: column;
    }
    .Quote h2{
-    font-size: 2em;
+    font-size:min(3rem ,5rem);
+
     font-family: 'Lobster', sans-serif;
     
    }
 
    .Quote small{
-    font-size: 1.5em;
+    font-size: 3vmin;
     font-family: 'Dancing Script', cursive;
    }
 
    .btn {
 	display: block;
-	border: 2px solid #008CBA;
+	border: 0.2rem solid #008CBA;
 	background: transparent;
-	padding: 10px 15px;
+	padding: 1dvh 1.5dvw;
 	color: #008CBA;
-	font-size: 20px;
-	border-radius: 5px;
+	font-size: 5vmin;
+	border-radius: .5rem;
 	cursor: pointer;
 	outline: none;
 	transition: background 1s, color 1s;
@@ -49,3 +51,19 @@
 	color: #fff;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+/* @media screen and (max-width:900px) {
+    .Quote h2{
+        font-size: 1rem;
+    }
+    .App{
+        min-height:70%;
+    }
+} */
+
+/* .iconLeft{
+    margin-right: 60vmin;
+    
+}
+.iconRight{
+    margin-right: 60vmin;
+} */
