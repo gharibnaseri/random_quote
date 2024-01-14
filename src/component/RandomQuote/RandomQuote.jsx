@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./RandomQuote.css"
-import { FaTwitter, FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
+import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa'
 const RandomQuote = () => {
 const [quote, setQuote] = useState('')
 const [author, setAuthor] = useState('')
