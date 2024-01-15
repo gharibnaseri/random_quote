@@ -62,10 +62,10 @@
     }
 } */
 
-/* .iconLeft{
-    margin-right: 60vmin;
+.iconLeft{
+    padding-left: 60vmin;
     
 }
 .iconRight{
-    margin-right: 60vmin;
-} */
+    padding-right: 60vmin;
+}
