@@ -7,16 +7,17 @@
     align-items: center;
     flex-direction: column;
     /* background-color: #77D5E7; */
+    margin-top: 2vh;
 }
 .Quote{
     /* background: url(/Users/user/Desktop/code/react/random_quote/src/component/Assets/background.jpg); */
     background-color: #72b8cf;
     background-size: cover;
-    width: 60svh;
-    height: 50svh;
+    width: 65dvw;
+    height: 46dvh;
     /* max-width: calc(60dvh - 200px); */
     border-radius: 10px;
-    padding: 50px;
+    padding: 11vw;
     display: flex;
     justify-content: center;
     align-items: center;
