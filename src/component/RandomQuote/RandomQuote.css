@@ -13,11 +13,11 @@
     /* background: url(/Users/user/Desktop/code/react/random_quote/src/component/Assets/background.jpg); */
     background-color: #72b8cf;
     background-size: cover;
-    width: 65dvw;
-    height: 46dvh;
+    width: 85dvw;
+    height: 60dvh;
     /* max-width: calc(60dvh - 200px); */
     border-radius: 10px;
-    padding: 11vw;
+    padding: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +33,7 @@
    .Quote small{
     font-size: 3vmin;
     font-family: 'Dancing Script', cursive;
+    padding-top: 2vh;
    }
 
    .btn {
