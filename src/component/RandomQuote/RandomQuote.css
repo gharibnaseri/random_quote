@@ -63,9 +63,9 @@
 } */
 
 .iconLeft{
-    padding-left: 60vmin;
+    padding-right: 60vmin;
     
 }
 .iconRight{
-    padding-right: 60vmin;
+    padding-left: 60vmin;
 }
